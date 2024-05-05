@@ -63,7 +63,6 @@ Content-Type: application/json
 {
   "google_token": "<user_google_token>"
 }
-
 ## Sample Response (Sign-Up with Google)
 ```json
 {
@@ -71,5 +70,6 @@ Content-Type: application/json
   "name": "John",
   "email": "john@example.com"
 }
-Conclusion
+
+##Conclusion
 Reflex API empowers developers to integrate essential emergency service functionalities into their applications, ensuring users like John have access to swift assistance during critical situations. For further assistance or inquiries, please contact our support team at support@reflexapp.com.
