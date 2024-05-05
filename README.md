@@ -71,5 +71,5 @@ Content-Type: application/json
   "email": "john@example.com"
 }
 
-##Conclusion
+Conclusion
 Reflex API empowers developers to integrate essential emergency service functionalities into their applications, ensuring users like John have access to swift assistance during critical situations. For further assistance or inquiries, please contact our support team at support@reflexapp.com.
