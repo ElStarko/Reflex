@@ -65,7 +65,7 @@ Content-Type: application/json
 }
 
 ## Sample Response (Sign-Up with Google)
-```
+```json
 {
   "user_id": "123456789",
   "name": "John",
