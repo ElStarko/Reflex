@@ -63,7 +63,6 @@ Content-Type: application/json
 {
   "google_token": "<user_google_token>"
 }
-```
 ## Sample Response (Sign-Up with Google)
 {
   "user_id": "123456789",
