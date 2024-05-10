@@ -10,12 +10,15 @@ Welcome to the API documentation for Reflex, your trusted emergency service app.
 ## Authentication
 Reflex supports two authentication methods:
 - Google Sign-In: Users can sign up or log in using their Google account.
-- Phone Number Authentication: Users can sign up or log in using their name and phone number.
+- Facebook Sign-Up: Users can sign up using their Facebook account.
+- Email/Password Authentication: Users can sign up or log in using their email and password.
 
 ## Endpoints
 ### Sign-Up/Onboarding
 - `POST /api/signup/google`: Sign up with Google account.
-- `POST /api/signup/phone`: Sign up with name and phone number.
+- `POST /api/signup/facebook`: Sign up with Facebook account.
+- `POST /api/signup/email`: Sign up with email and password.
+- `POST /api/login/email`: Log in with email and password.
 - `POST /api/password/recovery`: Recover forgotten password or unlock account.
 
 ### Emergency Service Selection
@@ -40,7 +43,7 @@ Reflex supports two authentication methods:
 - `GET /api/emergency/contacts`: Get offline access to relevant emergency contacts.
 
 ## Request Parameters
-- For sign-up endpoints: Name, email (for Google sign-up), phone number.
+- For sign-up endpoints: Name, email (for Google sign-up), phone number or Name (for Facebook sign-up).
 - For password recovery: Email or phone number.
 
 ## Response Format
