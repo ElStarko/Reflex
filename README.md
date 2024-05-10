@@ -21,9 +21,6 @@ Reflex supports two authentication methods:
 - `POST /api/login/email`: Log in with email and password.
 - `POST /api/password/recovery`: Recover forgotten password or unlock account.
 
-### Login 
-- `POST /api/login/email`: Login with email and password.
-
 ### Emergency Service Selection
 - `GET /api/emergency/helplines`: Get quick helplines for emergencies.
 - `GET /api/emergency/services`: Get available emergency services.
